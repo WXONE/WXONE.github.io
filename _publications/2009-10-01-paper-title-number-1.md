@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "SCU-Counting: A large-scale benchmark dataset for multi-class object counting"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-06-12-spatiotemporal-deep-learning-crash-risk-prediction
+excerpt: 'This paper proposes a spatiotemporal deep learning framework for citywide short-term crash risk prediction across multiple temporal resolutions, integrating historical crash data, traffic dynamics, and point-of-interest information.'
+date: 2024-01-01 # 请根据实际发表年份调整
+venue: 'Transportation Research Part C: Emerging Technologies' # 请补充具体的期刊或会议名称
+slidesurl: ''
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0968090X24001293' # 或替换为实际论文链接
+bibtexurl: ''
+citation: 'Wei, X.-Y., Zhang, L., Ma, H.-Y., & Zhang, X.-F. (2024). SCU-Counting: A large-scale benchmark dataset for multi-class object counting. <i>Journal or Conference Name</i>.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Object counting has been widely studied because of its practicality. However, most currently published object counting datasets contain only a single class of objects, such as crowd or vehicle, which is challenging to meet the usage needs of tasks, such as traffic control. For practical applications, a multi-class object counting (MCOC) dataset that includes transports is increasingly needed. Therefore, this study collected a large-scale MCOC dataset from the Web and live-viewing, called the Soochow university counting (SCU-Counting) dataset. Images from the Web are licensed for free modification, sharing and using for all creative commons. SCU-Counting consists of 2521 images, where 108 images are empty scenes and others are annotated, in a total of 274,199 annotated instances (195,018 humans, 38,831 cars, 2503 trucks, 6445 buses, 10,964 tricycles, 4600 e-bikes, 9729 e-scooters, 3900 bicycles, 2169 motorcycles). Except for empty scenes, each image contains at least one type of objects. In addition, this study proposes a convolutional neural network-based multi-aware feature aggregation network (MAFA-Net) for MCOC. MAFA-Net first uses a front-end module to extract shallow [image features](https://www.sciencedirect.com/topics/computer-science/image-feature), and then designs a multi-aware module that can aggregate contextual, channel and spatial information of features extracted by the front-end. Additionally, a class adaptive [weight assignment](https://www.sciencedirect.com/topics/computer-science/assignment-weight) (CAWA) loss function is developed based on the focal loss function, which can regulate the sample balance between classes in MCOC tasks. We conducted [comparative experiments](https://www.sciencedirect.com/topics/engineering/comparative-experiment) on five public counting datasets to evaluate the effectiveness of our proposed MAFA-Net. In addition, we conducted extensive experiments on the SCU-Counting dataset to validate the counting and [target localization](https://www.sciencedirect.com/topics/engineering/target-localization) abilities of MAFA-Net. For the counting task, MAFA-Net achieves the best MAE (mean absolute error) of 20.08 and MSE (mean squared error) of 46.11, which is 1.84 and 1.75 lower in MAE and MSE than the second best method, respectively. For the localization task, MAFA-Net reaches 90.3% normalized average precision (nAP) at the level of 0.5 and 67.5% average nAP at the level set of {0.05,0.1,...,0.50}  , which suggests that the [localization performance](https://www.sciencedirect.com/topics/engineering/localization-performance) of MAFA-Net can meet the requirement of applications. In summary, experimental results demonstrate the usability of the SCU-Counting dataset and the superiority of MAFA-Net.
